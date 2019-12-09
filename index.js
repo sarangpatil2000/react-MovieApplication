@@ -13,13 +13,35 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-      <div class="btn-group-vertical m-2" role="group" aria-label="Basic example">
-  <button type="button" class="btn btn-secondary">All Generes</button>
-  <button type="button" class="btn btn-secondary">Middle</button>
-  <button type="button" class="btn btn-secondary">Right</button>
-</div>
-      <div className="btn-group-vertical">
-      
+      <div className="container">
+      <div className="row">
+      <div className="btn-group-vertical m-2" role="group" aria-label="Basic example">
+        <button type="button" className="btn btn-secondary">All Generes</button>
+        <button type="button" className="btn btn-secondary">Action</button>
+        <button type="button" className="btn btn-secondary">Comedy</button>
+        <button type="button" className="btn btn-secondary">Thriller</button>
+      </div>
+      <table>
+        
+          <th>
+          Title
+          </th>
+          <th>
+          Genere
+          </th>
+          <th>
+          Stock
+          </th>
+          <th>
+          Rate
+          </th>
+       
+        <tbody>
+          <tr>
+          </tr>
+        </tbody>
+      </table>
+      </div>
       </div>
       </React.Fragment>
     );
