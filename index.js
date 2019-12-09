@@ -21,26 +21,7 @@ class App extends Component {
         <button type="button" className="btn btn-secondary">Comedy</button>
         <button type="button" className="btn btn-secondary">Thriller</button>
       </div>
-      <table>
-        
-          <th>
-          Title
-          </th>
-          <th>
-          Genere
-          </th>
-          <th>
-          Stock
-          </th>
-          <th>
-          Rate
-          </th>
-       
-        <tbody>
-          <tr>
-          </tr>
-        </tbody>
-      </table>
+      
       </div>
       </div>
       </React.Fragment>
