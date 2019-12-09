@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Render} from 'react-dom';
 import {getMovies} from '../services/fakeMoviesService';
 
-class Movies extends Component{
+class movies extends Component{
   constructor(){
     this.state = {
       movies = getMovies()
@@ -32,4 +32,4 @@ class Movies extends Component{
   }
 }
 
-default export Movies;
+default export movies;
