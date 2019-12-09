@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+import {Movies} from './components/movies.jsx';
 import "bootstrap/dist/css/bootstrap.css";
 
 class App extends Component {
@@ -21,7 +22,7 @@ class App extends Component {
         <button type="button" className="btn btn-secondary">Comedy</button>
         <button type="button" className="btn btn-secondary">Thriller</button>
       </div>
-      
+      <Movies />
       </div>
       </div>
       </React.Fragment>
